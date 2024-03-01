@@ -159,10 +159,11 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="#home" class="anchorLink nav-button" style=" font-weight: bold;">Home</a></li>
                         <li><a href="#about" class="anchorLink nav-button" style="font-weight: bold;">About</a></li>
-                        <!-- <li><a href="#gallery" class="anchorLink nav-button" style="font-weight: bold;">Gallery</a></li> -->
+                       
                         <li><a href="#event" class="anchorLink nav-button" style=" font-weight: bold;">Event</a></li>
                         <li><a href="#venue" class="anchorLink nav-button" style="font-weight: bold;">Venue</a></li>
                         <!-- <li><a href="#family" class="anchorLink nav-button" style="font-weight: bold;">Family</a></li> -->
+                        <li><a href="#gallery" class="anchorLink nav-button" style="font-weight: bold;">Gallery</a></li>
                         <li><a href="#contact" class="anchorLink nav-button" style=" font-weight: bold;">Contact</a>
                         </li>
                     </ul>
@@ -260,11 +261,13 @@
                     Latha
                 </h3>
                 <img src="https://raw.githubusercontent.com/Sainikhil639/Wedding-Invitation/main/both.jpg"
-                    class="position-absolute w-100 h-100" style="object-fit: cover; height: 100%; width: 100%;"> <br><br>
-                    <video width="100%" height="60%" controls>
-                        <source src="https://raw.githubusercontent.com/Sainikhil639/Wedding-Invitation/main/event.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video>
+                    class="position-absolute w-100 h-100" style="object-fit: cover; height: 100%; width: 100%;">
+                <br><br>
+                <video width="100%" height="60%" controls>
+                    <source src="https://raw.githubusercontent.com/Sainikhil639/Wedding-Invitation/main/event.mp4"
+                        type="video/mp4">
+                    Your browser does not support video.
+                </video>
             </div>
         </div>
     </div>
@@ -297,20 +300,21 @@
 
     <!-- Venue Starts -->
     <div id="venue">
-        <div class="container"
-            style="background-color: #abefc446; text-align: center; padding-bottom: 10px;">
+        <div class="container" style="background-color: #abefc446; text-align: center; padding-bottom: 10px;">
             <h2 style=" font-family:'Great Vibes',cursive !important;">Venue</h2>
-            <h1 style="color: #00491b; font-weight: bolder;">JSK Kalyana Mandapam</h1>
+            <h1 style="color: #00491b; font-weight: bolder; font-family: Arial, Helvetica, sans-serif !important;">JSK
+                Kalyana Mandapam</h1>
             <div>
                 <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.6144042510987!2d81.1364291!3d16.795849099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a366b86e3c7328b%3A0xa4344915f7b16de!2sJ%20S%20K%20Gardens!5e0!3m2!1sen!2sin!4v1709109385987!5m2!1sen!2sin"
-                height="250" allowfullscreen="allowfullscreen" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                style="border: 0;margin: auto;z-index: -200;width: 100% !important;" data-v-18eb878c=""></iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.6144042510987!2d81.1364291!3d16.795849099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a366b86e3c7328b%3A0xa4344915f7b16de!2sJ%20S%20K%20Gardens!5e0!3m2!1sen!2sin!4v1709109385987!5m2!1sen!2sin"
+                    height="250" allowfullscreen="allowfullscreen" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    style="border: 0;margin: auto;z-index: -200;width: 100% !important;" data-v-18eb878c=""></iframe>
 
             </div>
-            
-            <a href="https://maps.app.goo.gl/vATNcknH6woJzhbV7" target="_blank" class="btn btn-success" style="font-weight: bold;">Get
+
+            <a href="https://maps.app.goo.gl/vATNcknH6woJzhbV7" target="_blank" class="btn btn-success"
+                style="font-weight: bold;">Get
                 Directions</a>
         </div>
     </div>
@@ -322,7 +326,8 @@
                 data-v-18eb878c="">
                 Friends &amp; Family
             </h6>
-            <h1 class="display-4" style="font-family:'Great Vibes',cursive !important; font-size: 25px !important;" data-v-18eb878c="">
+            <h1 class="display-4" style="font-family:'Great Vibes',cursive !important; font-size: 25px !important;"
+                data-v-18eb878c="">
                 Invitee's
             </h1>
             <h1 class="display-4 mb-3" style="font-family:'Great Vibes',cursive !important; font-size: 20px !important;"
@@ -346,10 +351,32 @@
     </div> -->
     <!-- Family Ends -->
 
+    <!-- Gallery Starts -->
+    <div id="gallery">
+        <div class="container"
+            style="background-color: #d8b20a79; text-align: center; padding-bottom: 10px;">
+            <h3 style="text-align: center; font-weight: bold; font-size: 30px; font-family:'Great Vibes',cursive !important;">Gallery</h3>
+            <input style="outline: 0; margin: 10px;" type="password" id="passwordInput" placeholder="Enter password">
+            <button style="outline: 0; margin: 10px;" class="btn btn-primary" onclick="verifyPassword()"
+                style="font-weight: bold;">Verify</button><br>
+            <button style="outline: 0; margin: 10px;" class="btn btn-success" onclick="showImage('image1')"
+                style="font-weight: bold;" disabled>Haldi</button>
+            <button style="outline: 0; margin: 10px;" class="btn btn-success" onclick="showImage('image2')"
+                style="font-weight: bold;" disabled>Picture-2</button>
+            <!-- Add more buttons for additional images if needed -->
+
+            <img id="displayedImage" src="" class="position-absolute w-100 h-100"
+                style="object-fit: cover; height: 100%; width: 100%; display: none;"> <br><br>
+
+            <br><br>
+        </div>
+    </div>
+    <!-- Gallery Ends -->
+
     <!-- Contact Starts -->
     <div id="contact">
         <div class="container"
-            style="color: #ffffff !important; background-color: #060028; text-align: center; padding-bottom: 10px; font-family:'Great Vibes',cursive !important; color: rgb(13, 8, 50);">
+            style="color: #ffffff !important; background-color: #060028; text-align: center; padding-bottom: 10px; color: rgb(13, 8, 50);">
             <h1 class="display-3 text-white" style="font-family:'Great Vibes',cursive !important;" data-v-18eb878c="">
                 Thank You
             </h1>
@@ -357,7 +384,7 @@
                 <span>BGR: <a href="tel:+919989276947">9949565458</a></span>
                 <a href="tel:+919949565458" class="btn btn-primary">Call</a>
             </div>
-            <br/>
+            <br />
             <div>
                 <span>Mani: <a href="tel:+919989276947">9989276947</a></span>
                 <a href="tel:+919989276947" class="btn btn-primary">Call</a>
@@ -423,12 +450,50 @@
             document.body.scrollTop = 0; // For Safari
             document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
         }
+
+        var passwordEntered = false;
+
+        function verifyPassword() {
+            var password = document.getElementById('passwordInput').value;
+            if (password === '11223344') { // Replace 'your_password' with the actual password
+                passwordEntered = true;
+                enableButtons();
+            } else {
+                alert('Incorrect password. Please try again.');
+            }
+        }
+
+        function enableButtons() {
+            var buttons = document.querySelectorAll('.btn-success');
+            buttons.forEach(function (button) {
+                button.disabled = false;
+            });
+        }
+
+        function showImage(imageName) {
+            if (!passwordEntered) {
+                alert('Please verify password first.');
+                return;
+            }
+
+            var imageSrc;
+            // Determine which image to display based on the button clicked
+            if (imageName === 'image1') {
+                imageSrc = 'https://raw.githubusercontent.com/Sainikhil639/Wedding-Invitation/main/haldi.mp4'; // Replace 'path_to_your_image1.jpg' with the actual path to your image
+            } else if (imageName === 'image2') {
+                imageSrc = 'path_to_your_image2.jpg'; // Replace 'path_to_your_image2.jpg' with the actual path to your image
+            }
+            // Display the image
+            document.getElementById('displayedImage').src = imageSrc;
+            document.getElementById('displayedImage').style.display = 'block';
+        }
     </script>
 
     <!-- Floating button to scroll to top -->
     <div class="scroll-to-top">
-        <button onclick="scrollToTop()" style="background-color: #0c1b3140 !important; color: #ffffff61; border-width: 0px; outline: none;" class="btn"><i
-                class="fa fa-arrow-up"></i></button>
+        <button onclick="scrollToTop()"
+            style="background-color: #0c1b3140 !important; color: #ffffff61; border-width: 0px; outline: none;"
+            class="btn"><i class="fa fa-arrow-up"></i></button>
     </div>
 </body>
 
@@ -436,5 +501,3 @@
 </body>
 
 </html>
-
-  
